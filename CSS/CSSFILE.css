@@ -1,0 +1,101 @@
+.whitebackground{
+    width:500px;
+    height:500px;
+    border:1px solid black;
+    display: inline-block;
+    
+}
+.toolbox{
+
+    background-color:lightgrey;
+    width:120px;
+    height:500px;
+    border:1px solid green;
+    display: inline-flex;
+    color:green;
+}
+
+.inner-box{
+    color:black;
+    border:2px solid black;
+    width:100px;
+    height:50px;
+    top:50px;
+    padding:5px;
+    position:absolute;
+}
+
+.eraser{
+    color:black;
+    border:2px solid black;
+    width:100px;
+    height:50px;
+    top:112px;
+    padding:5px;
+    position:absolute;
+}
+
+.brushsize{
+    color:black;
+    border:2px solid black;
+    width:100px;
+    height:50px;
+    top:174px;
+    padding:5px;
+    position:absolute;
+}
+
+#blue{
+    background-color:blue;
+    width: 15px;
+    height:15px;
+    padding:1px;
+    position:relative;
+    display: inline-block;
+    top:21px;
+    left:-11px;
+}
+#red{
+    background-color:red;
+    width: 15px;
+    height:15px;
+    padding:1px;
+    position:relative;
+    display: inline-block;
+    top:21px;
+    left:-11px;
+    
+}
+#yellow{
+    background-color: yellow;
+    width: 15px;
+    height:15px;
+    padding:1px;
+    display: inline-block;
+    position:relative;
+    
+}
+#teal{
+    background-color: teal;
+    width: 15px;
+    height:15px;
+    padding:1px;
+    display: inline-block;
+    position:relative;
+    
+}
+#coral{
+    background-color:coral;
+    width: 15px;
+    height:15px;
+    padding:1px;
+    display: inline-block;
+    position:relative;
+    
+} 
+.draw{
+    width:2px;
+    height:2px;
+    background: black;
+    position:fixed;
+}
